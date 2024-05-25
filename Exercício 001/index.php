@@ -7,8 +7,11 @@
 </head>
 <body>
     <h1>Dados do Servidor</h1>
+    
     <?php 
+        // Função PHP que exibe informações detalhadas sobre a configuração do PHP
         phpinfo();
     ?>
 </body>
+
 </html>

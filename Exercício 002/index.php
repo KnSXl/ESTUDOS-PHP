@@ -6,8 +6,8 @@
     <title>Exercício 002</title>
 </head>
 <body>
-    <!-- Cabeçalho principal da página -->
     <h1>Exemplo PHP</h1>
+    
     <?php
         // Define o fuso horário para "America/Sao_Paulo"
         date_default_timezone_set("America/Sao_Paulo");

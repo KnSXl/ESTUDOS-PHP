@@ -8,6 +8,7 @@
 <body>
     <h1>
         <?php 
+            // Código PHP que imprime "Olá Mundo!" seguido de um emoji da Terra
             echo "Olá Mundo! \u{1F30E}";
         ?>
     </h1>
