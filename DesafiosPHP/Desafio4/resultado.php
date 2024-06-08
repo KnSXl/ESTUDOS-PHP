@@ -9,8 +9,15 @@
     <main>
         <h1>Conversor de Moedas</h1>
 
-        <?php 
-            $cotacao = 5.35;
+        <?php
+            $dataInicio = date("m-d-Y", strtotime("-7 days"));
+            $dataFim = date("m-d-Y");
+
+            $apiURL = 'https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial=\''. $dataInicio .'\'&@dataFinalCotacao=\''. $dataFim .'\'&$top=100&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,dataHoraCotacao';
+    
+            $dados = json_decode(file_get_contents($apiURL), true);
+    
+            $cotacao = $dados["value"][0]["cotacaoCompra"];
 
             $valor = $_REQUEST["valor"] ?? 0;
             $dolar = $valor / $cotacao;

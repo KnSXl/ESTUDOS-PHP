@@ -7,19 +7,14 @@
     <title>Antecessor e Sucessor</title>
 </head>
 <body>
-    <!-- Cabeçalho da página com um título principal -->
-    <header>
+    <main>
         <h1>Informe um número</h1>
-    </header>
-
-    <!-- Seção que contém o formulário para entrada do número -->
-    <section>
-        <!-- Formulário que envia os dados para "resultado.php" usando o método GET -->
-        <form action="resultado.php" method="get">
+        
+        <form action="resultado.php" method="post">
             <label for="numero">Número:</label>
-            <input type="number" name="numero" id="idnumero">
+            <input type="number" name="numero" id="numero" required>
             <input type="submit" value="Enviar">
         </form>
-    </section>
+    </main>
 </body>
 </html>
