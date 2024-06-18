@@ -1,37 +1,33 @@
-# Operadores Aritméticos do PHP
+# Expressões Aritméticas com PHP
 
-`2 + 2 = 4`
+5 + 2 / 2 = 3,5 👎
 
-`"2" + "2" = ?` ( "22", "4", 4 ou ERRO )
+5 + (2 / 2) = 6 👍 -> maior precedência
 
-`. = Operador de concatenação`
+## Ordem de Precedência
 
-`+ = Operador aritmético de adição`
+`( )`
 
----
+`**` ↓
 
-`+` Adição
+`*` -> `/` -> `%` ↓
 
-`-` Subtração
+`+` `-`
 
-`*` Multiplicação
+50 / 2 + 3 ** 2 ↓
 
-`/` Divisão Real
+3 ** 2 = 9 ↓
 
-`%` Módulo
+50 / 2 = 25 ↓
 
-`**` Potência
+25 + 9 = 34
 
-5 + 2 = 7
+--- 
 
-5 - 2 = 3
+50 / (2 + 3) ** 2 ↓
 
-5 * 2 = 10
+2 + 3 = 5 ↓
 
-5 / 2 = 2.5
+5 ** 2 = 25 ↓
 
-5 % 2 = 1
-
-5 ** 2 = 25
-
-5 + 2 / 2 = 6
+50 / 25 = 2
