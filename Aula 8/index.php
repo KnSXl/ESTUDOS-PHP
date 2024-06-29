@@ -1,0 +1,5 @@
+Antes
+<?php ?>
+Durante
+<?php ?>
+Depois
