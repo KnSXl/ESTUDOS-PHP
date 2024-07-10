@@ -1,9 +1,10 @@
-<?php
-    // importa o arquivo funcoes.php
-    require './funcoes.php';
+<?php 
+    // Arquivo index responsável pela inicialização do sistema
 
-    // usa as funções do arquivos funcoes.php
+    require_once 'sistema/configuracao.php';
+    include_once 'helpers.php';
+
     echo saudacao();
-    echo "<hr>";
+    echo '<hr>';
     echo resumirTexto();
 ?>

@@ -1,4 +1,6 @@
 <?php
+    // Arquivo index responsável pela inicialização do sistema
+
     // Comentário de uma linha
     # Comentário de uma linha
     /*

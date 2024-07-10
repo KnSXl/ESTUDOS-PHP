@@ -1,3 +1,3 @@
-<?php 
-    echo "Arquivo de configuração do sistema"
+<?php
+    echo 'Arquivo de configuração do sistema';
 ?>

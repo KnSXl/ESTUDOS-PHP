@@ -1,7 +1,8 @@
-<?php
-    // exemplos de include e require
-    include "./sistema/configuracao.php";
-    require "./sistema/configuracao.php";
-    require_once "funcoes.php";
-    include_once "funcoes.php";
+<?php 
+    // Arquivo index responsável pela inicialização do sistema
+
+    require_once 'sistema/configuracao.php';
+    include_once 'helpers.php';
+
+    echo '<h1>Arquivo index</h1>';
 ?>

@@ -1,15 +1,13 @@
-<?php
-    require './funcoes.php';
+<?php 
+    // Arquivo index responsável pela inicialização do sistema
 
-    // exemplos de variáveis
-    $texto = "texto para resumir vindo de uma variável";
+    require_once 'sistema/configuracao.php';
+    include_once 'helpers.php';
 
-    // dando um novo valor a variável "$texto"
-    $texto = "NOVO texto para resumir vindo de uma variável";
+    $texto = 'texto para resumir vindo de uma variavel';
+    $texto = 'xxx';
 
     echo saudacao();
-    echo "<hr>";
-
-    // Passando a variável "$texto" como argumento para a função "resumirTexto"
-    echo resumirTexto($texto, 50);
+    echo '<hr>';
+    echo resumirTexto($texto, 50, 'continue');
 ?>

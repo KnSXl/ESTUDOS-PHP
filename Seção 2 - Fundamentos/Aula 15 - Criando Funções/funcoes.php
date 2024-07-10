@@ -1,10 +1,9 @@
 <?php
-    // exemplo de função
     function saudacao() {
-        return "Boa tarde";
-    };
+        return 'boa tarde';
+    }
 
     function resumirTexto() {
-        return "Texto resumido";
-    };
+        return 'texto resumido';
+    }
 ?>

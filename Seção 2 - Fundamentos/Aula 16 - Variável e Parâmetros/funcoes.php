@@ -1,11 +1,9 @@
 <?php
     function saudacao() {
-        return "Boa tarde";
-    };
+        return 'boa tarde';
+    }
 
-    // exemplo de variáveis como parâmetros de funções
-    function resumirTexto($texto, $limite, $continue = "...") {
-        // Retorna apenas a variável $texto
+    function resumirTexto($texto, $limite, $continue = '...') {
         return $texto;
-    };
+    }
 ?>

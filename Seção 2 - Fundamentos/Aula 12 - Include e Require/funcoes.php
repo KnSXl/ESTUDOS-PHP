@@ -1,3 +1,3 @@
-<?php 
-    echo "Arquivo de funções";
+<?php
+    echo 'arquivo de funções';
 ?>

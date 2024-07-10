@@ -1,9 +1,7 @@
 <?php
-    // exemplo de echo
-    echo "<h1>Texto usando echo e aspas duplas!</h1>";
-    echo '<h1>Texto usando echo e aspas simples!</h1>';
+    echo '<h1>Arquivo index</h1>';
+    echo "texto dentro de aspas duplas";
 
-    // exemplo de print
-    print "<h1>Texto usando print e aspas duplas!</h1>";
-    print '<h1>Texto usando print e aspas duplas!</h1>';
+    print '<h1>Texto usando print</h1>';
+    print "<small>texto dentro de aspas duplas</small>";
 ?>

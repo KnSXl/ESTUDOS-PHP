@@ -1,2 +1,6 @@
-<!-- exemplo de tag php -->
+Antes
 <?php ?>
+Durante
+<?php 
+?>
+Depois
