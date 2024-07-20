@@ -1,1 +1,0 @@
-# Aula 2 - ApresIntrodução ao ChatGPT
