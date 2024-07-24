@@ -1,0 +1,1 @@
+# Aula 25 - Operador Ternário
