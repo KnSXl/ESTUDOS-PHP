@@ -21,7 +21,7 @@
      * Saudação  de acordo com o horário
      * @return string saudação
      */
-    date_default_timezone_set('America/Sao_Paulo');
+    // date_default_timezone_set('America/Sao_Paulo');
 
     function saudacao(): string {
         $hora = date('H');
